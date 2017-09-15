@@ -1,3 +1,15 @@
+
+body, html, .capa{
+  height: 100%;
+}
+
+body{
+  background: url(imagens/capa.png), url(imagens/ruido.png), linear-gradient(50deg,#ff4169,#7c26f8);
+  background-attachment: fixed;
+}
+
+
+/* Barra de navegação*/
 .img-logo{
   height: 40px;
   width: 132px;
@@ -32,4 +44,55 @@ nav.navbar-transparente{
 
 .navbar-inverse .navbar-nav>li>a:hover{
   color: #9bf0e1;
+}
+
+/* Imagem de Capa */
+
+.capa{
+  display: table;
+  width: 100%;
+}
+
+.texto-capa{
+  text-align: center;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Botões */
+
+.btn-custon{
+  color: #fff;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  margin: 0 15px;
+  transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo{
+  background: #7c25f8;
+}
+.btn-branco{
+  border: 2px solid #fff;
+}
+
+.btn-roxo:hover{
+  background-color: #6207e3;
+  color: #fff;
+}
+
+.btn-branco:hover{
+  background-color: #fff;
+  color: #000;
+}
+/* Tipográfia */
+h1{
+  font-size: 100px;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  margin-bottom: 50px;
 }
