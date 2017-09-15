@@ -6,6 +6,7 @@ body, html, .capa{
 body{
   background: url(imagens/capa.png), url(imagens/ruido.png), linear-gradient(50deg,#ff4169,#7c26f8);
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 
@@ -89,6 +90,41 @@ nav.navbar-transparente{
   background-color: #fff;
   color: #000;
 }
+
+/* Conteudos */
+
+#servicos{
+  background-color: #fff;
+  padding: 20px; 
+}
+
+
+.albuns{
+  padding: 10px 0px 10px 0px;
+}
+
+#servicos h2, #servicos h3{
+  color: #7c25f8;
+}
+
+/* Recrusos */
+
+#recursos{
+  padding: 10px;
+  color: #fff;
+}
+
+#recursos h3{
+  color: #9bf0e1;
+}
+
+.rotacionar{
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  padding-left: 80px;
+}
+
 /* Tipográfia */
 h1{
   font-size: 100px;
@@ -96,3 +132,16 @@ h1{
   letter-spacing: -0.05em;
   margin-bottom: 50px;
 }
+
+h2{
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+h3{
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
